@@ -5,6 +5,16 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "m1-01-json-net", "m1-01-json-net\m1-01-json-net.csproj", "{D6ECDCF9-EEE7-4405-925D-4390CE3C737E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "m2-01-mapping-demo", "m2-01-mapping-demo\m2-01-mapping-demo.csproj", "{0485B5D0-AAA0-4309-927C-4D2B3A21887B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonSamples", "JsonSamples\JsonSamples.csproj", "{509DFFAF-B43E-4FDA-ABCE-5BACC9F35A18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "m2-02-json-serializer-demo", "m2-02-json-serializer-demo\m2-02-json-serializer-demo.csproj", "{FEDB1B9C-D573-4FDD-A45B-D64FA55CBE77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "m2-03-dates-demo", "m2-03-dates-demo\m2-03-dates-demo.csproj", "{75DB8082-741E-4E3D-85CE-A9FD8427E925}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "m2-04-error-handling-demo", "m2-04-error-handling-demo\m2-04-error-handling-demo.csproj", "{17F86AB2-5223-4CFF-93A2-1216F8A55810}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{D6ECDCF9-EEE7-4405-925D-4390CE3C737E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6ECDCF9-EEE7-4405-925D-4390CE3C737E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6ECDCF9-EEE7-4405-925D-4390CE3C737E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0485B5D0-AAA0-4309-927C-4D2B3A21887B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0485B5D0-AAA0-4309-927C-4D2B3A21887B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0485B5D0-AAA0-4309-927C-4D2B3A21887B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0485B5D0-AAA0-4309-927C-4D2B3A21887B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{509DFFAF-B43E-4FDA-ABCE-5BACC9F35A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{509DFFAF-B43E-4FDA-ABCE-5BACC9F35A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{509DFFAF-B43E-4FDA-ABCE-5BACC9F35A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{509DFFAF-B43E-4FDA-ABCE-5BACC9F35A18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEDB1B9C-D573-4FDD-A45B-D64FA55CBE77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEDB1B9C-D573-4FDD-A45B-D64FA55CBE77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEDB1B9C-D573-4FDD-A45B-D64FA55CBE77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEDB1B9C-D573-4FDD-A45B-D64FA55CBE77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75DB8082-741E-4E3D-85CE-A9FD8427E925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75DB8082-741E-4E3D-85CE-A9FD8427E925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75DB8082-741E-4E3D-85CE-A9FD8427E925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75DB8082-741E-4E3D-85CE-A9FD8427E925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17F86AB2-5223-4CFF-93A2-1216F8A55810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17F86AB2-5223-4CFF-93A2-1216F8A55810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17F86AB2-5223-4CFF-93A2-1216F8A55810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17F86AB2-5223-4CFF-93A2-1216F8A55810}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
