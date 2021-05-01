@@ -55,7 +55,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Common\JsonSamples\JsonSamples.csproj">
+    <ProjectReference Include="..\JsonSamples\JsonSamples.csproj">
       <Project>{509dffaf-b43e-4fda-abce-5bacc9f35a18}</Project>
       <Name>JsonSamples</Name>
     </ProjectReference>
