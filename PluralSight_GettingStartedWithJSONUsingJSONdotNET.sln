@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "m6-05-annotations-demo", "m
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "m7-01-json-xml-demo", "m7-01-json-xml-demo\m7-01-json-xml-demo.csproj", "{B841A4C8-B26B-44EF-830A-B7D9068536E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "m8-01-bson", "m8-01-bson\m8-01-bson.csproj", "{FC46F893-CB14-47B1-8AC8-BD72FD53A42D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{B841A4C8-B26B-44EF-830A-B7D9068536E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B841A4C8-B26B-44EF-830A-B7D9068536E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B841A4C8-B26B-44EF-830A-B7D9068536E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC46F893-CB14-47B1-8AC8-BD72FD53A42D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC46F893-CB14-47B1-8AC8-BD72FD53A42D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC46F893-CB14-47B1-8AC8-BD72FD53A42D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC46F893-CB14-47B1-8AC8-BD72FD53A42D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
