@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{47A3EEB2-4E8F-401E-9989-C685E02A226F}</ProjectGuid>
+    <ProjectGuid>{B841A4C8-B26B-44EF-830A-B7D9068536E4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>m6_05_annotations_demo</RootNamespace>
-    <AssemblyName>m6-05-annotations-demo</AssemblyName>
+    <RootNamespace>m7_01_json_xml_demo</RootNamespace>
+    <AssemblyName>m7-01-json-xml-demo</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,7 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AnnotationsDemo.cs" />
     <Compile Include="ComprehensiveDemo.cs" />
     <Compile Include="ForceArrayDemo.cs" />
     <Compile Include="Program.cs" />
@@ -55,19 +54,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="m7-01-json-xml-demo.csproj" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SampleAuthors.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SampleComprehensive.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SampleForceArray.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\JsonSamples\JsonSamples.csproj">
       <Project>{509dffaf-b43e-4fda-abce-5bacc9f35a18}</Project>
       <Name>JsonSamples</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="SampleAuthors.xml" />
-    <Content Include="SampleComprehensive.xml" />
-    <Content Include="SampleForceArray.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

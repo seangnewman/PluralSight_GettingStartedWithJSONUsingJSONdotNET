@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace m2_02json_serializer_demo
+namespace m7_01_json_xml_demo
 {
     class Program
     {
         static void Main(string[] args)
         {
-            JsonSerializerDemo.Show();
-           JsonTextReaderDemo.Show();
-            JsonTextWriterDemo.Show();
+            ToAndFromDemo.Show();
+            ForceArrayDemo.Show();
+            ComprehensiveDemo.Show();
         }
     }
 }
